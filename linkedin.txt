@@ -1,0 +1,13 @@
+! Remove LinkedIn feed only in the feed pages
+www.linkedin.com##.scaffold-finite-scroll--infinite.scaffold-finite-scroll:matches-path(/feed)
+www.linkedin.com##.feed-sort-toggle-dsa__wrapper:matches-path(/feed)
+
+! Remove LinkedIn recommended
+www.linkedin.com##.scaffold-layout__aside[aria-label="Add to your feed"]
+
+! Remove LinkedIn premium sponsor ads
+www.linkedin.com##.premium-upsell-link--extra-long
+
+! Remove LinkedIn messages overlay
+www.linkedin.com##.msg-overlay-container-reflow.msg-overlay-container
+www.linkedin.com##.mb2.artdeco-card.community-panel
