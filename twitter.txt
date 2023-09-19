@@ -2,25 +2,25 @@
 ! Inspired by https://adamgreenough.me/blog/how-to-hide-whats-happening-trending-topics-on-twitter/#rules
 ! Improved some and added some others.
 
-! Hide the 'Timeline: Trending now' sidebar on Twitter.com
+! Hide Twitter 'Timeline: Trending now' sidebar
 twitter.com##*[aria-label="Timeline: Trending now"]:nth-ancestor(2)
 
-! Hide the 'Who to follow' sidebar on Twitter.com
+! Hide Twitter 'Who to follow' sidebar
 twitter.com##*[aria-label="Who to follow"]:nth-ancestor(2)
 
-!Hide the 'Subscribe to Premium' sidebar on Twitter.com
+!Hide Twitter 'Subscribe to Premium' sidebar
 twitter.com##*[aria-label="Subscribe to Premium"]:nth-ancestor(1)
 
-!Hide the 'Timeline: Your Home Timeline' on Twitter.com
+!Hide Twitter 'Timeline: Your Home Timeline'
 twitter.com##*[aria-label="Timeline: Your Home Timeline"]
 
-! Hide the bottom message panel Twitter.com
+! Hide Twitter bottom message panel
 twitter.com##*[data-testid="DMDrawerHeader"]
 
-!Hide the 'Timeline: Explore' on Twitter.com
+!Hide Twitter 'Timeline: Explore'
 twitter.com##*[aria-label="Timeline: Explore"]
 
-!Hide the 'New Tweets are available. Push the period key to go to the them.' on Twitter.com
+!Hide Twitter 'New Tweets are available. Push the period key to go to the them.'
 twitter.com##*[aria-label="New Tweets are available. Push the period key to go to the them."]
 
 ! TODO Fix this one to remove suggestions at the end of the comments in a post.
