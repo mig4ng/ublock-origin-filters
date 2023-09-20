@@ -1,11 +1,6 @@
 ! Disable distractions on Stack Overflow and all other Stack Exchange sites.
 
 ! Top bar
-! View SO Teams, etc
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-topbar .js-left-sidebar-toggle
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.container #left-sidebar
-! Unnecessary grey border-left for logged out users after hiding #left-sidebar above
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com###content:style(border:0!important)
 ! About/Products/For Teams buttons (left of search bar)
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-topbar > .s-topbar--container > .s-navigation
 ! Your points
