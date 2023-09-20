@@ -47,8 +47,8 @@ Disable annoying Google popup that plages many websites.
 - reply to messages;
 - post something.
 
-## Stack Overflow and Stack Exchange
+### Stack Overflow and Stack Exchange
 
 **Objective:** Remove points, profile pictures, reminders to interact. Most of the time I only want to:
 
-- read the top answer on a question
+- read the top answer on a question.
