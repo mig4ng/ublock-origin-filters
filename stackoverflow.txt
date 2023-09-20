@@ -4,8 +4,9 @@
 ! View SO Teams, etc
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.js-left-sidebar-toggle
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com###left-sidebar
-! Stack Exchange products button
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.js-products-menu
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com###content:style(border:0!important)
+! About/Products/For Teams buttons
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-navigation
 ! Help icon
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.js-help-button
 ! Your points
