@@ -11,3 +11,17 @@ www.linkedin.com##.premium-upsell-link--extra-long
 ! Hide LinkedIn messages overlay
 www.linkedin.com##.msg-overlay-container-reflow.msg-overlay-container
 www.linkedin.com##.mb2.artdeco-card.community-panel
+
+! Hide LinkedIn Pay for premium under the profile in Feed page
+www.linkedin.com##.text-align-left.link-without-hover-state.t-bold.t-black.t-12.feed-identity-module__anchored-widget--premium-upsell.feed-identity-module__anchored-widget.link-without-visited-state.app-aware-link
+
+! Hide LinkedIn  "Try Premium for free" top bar
+www.linkedin.com##.premium-upsell-link--truncate.global-nav__spotlight-upsell.global-nav__primary-link--premium.global-nav__primary-link.link-without-visited-state
+
+! Hide LinkedIn "Try Premium for free" in My Network ! NOTE: loading this page is slower if enabled
+www.linkedin.com##.relative.flex-column.display-flex.align-items-left.mb4.artdeco-card.p4.mn-sales-navigator-upsell
+www.linkedin.com##.artdeco-card.full-width.mn-abi-form__container
+
+! Hide "For Business" Top Bar
+www.linkedin.com##.flex-column.display-flex.align-items-left.mt5.p4.artdeco-card
+www.linkedin.com##.global-nav__app-launcher-trigger.pl3.global-nav__primary-item--divider.global-nav__primary-link
