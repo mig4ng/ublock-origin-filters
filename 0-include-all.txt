@@ -1,2 +1,3 @@
+!#include google-account-popup.txt
 !#include linkedin.txt
 !#include twitter.txt
