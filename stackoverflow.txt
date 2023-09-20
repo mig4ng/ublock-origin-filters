@@ -28,8 +28,8 @@ stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com###sidebar > .js-sidebar-zone
 ! Hot Network Questions (there's an official setting to hide this now)
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com###sidebar > #hot-network-questions
-! Recent questions feed (on homepage) / Question feed (on question page)
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com###sidebar > #feed-link
+! RSS feed links (Recent questions feed (on homepage), Question feed (on question page), User feed (on a user's profile page))
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com###feed-link
 
 ! Footer (About, Contant Us, etc.)
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.site-footer
