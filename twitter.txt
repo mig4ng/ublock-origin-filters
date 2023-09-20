@@ -28,7 +28,7 @@ twitter.com##*[aria-label="New Tweets are available. Push the period key to go t
 ! Send me an email if you fixed this on. My username at gmail.com. My username is the same as the one in GitHub.
 
 ! Hide Twitter 'Verified' left side menu item
-twitter.com##*[role="link"][aria-label="Verified"]
+twitter.com##nav [role="link"][aria-label="Verified"]
 
 ! Hide Twitter 'Communities' left side menu item
-!twitter.com##*[role="link"][aria-label="Communities (New items)"]
+! twitter.com##nav [role="link"][aria-label="Communities (New items)"]
