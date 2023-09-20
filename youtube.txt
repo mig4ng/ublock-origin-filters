@@ -1,0 +1,13 @@
+! https://www.youtube.com
+www.youtube.com##ytd-logo
+www.youtube.com###guide
+www.youtube.com###header
+www.youtube.com###voice-search-button
+www.youtube.com###secondary
+www.youtube.com###chat
+www.youtube.com###always-shown
+www.youtube.com###comments
+www.youtube.com###columns:last-child
+www.youtube.com##ytd-horizontal-card-list-renderer
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-search ytd-shelf-renderer
