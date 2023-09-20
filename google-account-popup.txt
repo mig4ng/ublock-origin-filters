@@ -1,0 +1,2 @@
+! Hide login with Google annoying popups
+accounts.google.com/gsi/iframe
