@@ -47,9 +47,9 @@ stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net
 ! Users' points
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.post-signature > .user-info > .user-details > .-flair
 ! Profile pictures on Top Questions page
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-user-card > .s-user-card--avatar
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-post-summary--meta > .s-user-card > .s-user-card--avatar
 ! Users' points next to username on Top Questions page
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-user-card > .s-user-card--info > .s-user-card--awards
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-post-summary--meta > .s-user-card > .s-user-card--info > .s-user-card--awards
 ! Hide annoying usernames
 ! Put username text to match on (case insensitive) between the //
 !stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-user-card--link > .flex--item:has-text(//i)
@@ -61,7 +61,7 @@ stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net
 
 ! Tag icons (like an AWS logo next to the amazon-web-services tag)
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.post-tag > .sponsor-tag-img
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-post-summary--meta-tags > .js-community-tag.subcommunity-avatar.themed
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-post-summary--meta > .s-post-summary--meta-tags > .js-community-tag.subcommunity-avatar
 
 ! Christmas promotion
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.js-winterbash
