@@ -35,19 +35,21 @@ stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.site-footer
 
 ! Profile pictures
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.user-gravatar16
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.user-gravatar32
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.user-gravatar64
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.gravatar-wrapper-16
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.gravatar-wrapper-32
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.gravatar-wrapper-64
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.user-details:style(margin-left:0px!important)
-! Profile pictures on Top Questions page
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-avatar.s-avatar__16.s-user-card--avatar
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.post-signature > .user-info > .user-gravatar16
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.post-signature > .user-info > .user-gravatar32
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.post-signature > .user-info > .user-gravatar48
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.post-signature > .user-info > .user-gravatar64
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.post-signature > .user-info > .gravatar-wrapper-16
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.post-signature > .user-info > .gravatar-wrapper-32
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.post-signature > .user-info > .gravatar-wrapper-48
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.post-signature > .user-info > .gravatar-wrapper-64
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.post-signature > .user-info > .user-details:style(margin-left:0px!important)
 ! Users' points
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.-flair
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.post-signature > .user-info > .user-details > .-flair
+! Profile pictures on Top Questions page
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-user-card > .s-user-card--avatar
 ! Users' points next to username on Top Questions page
-stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-user-card--info > .s-user-card--awards
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-user-card > .s-user-card--info > .s-user-card--awards
 ! Hide annoying usernames
 ! Put username text to match on (case insensitive) between the //
 !stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-user-card--link > .flex--item:has-text(//i)
