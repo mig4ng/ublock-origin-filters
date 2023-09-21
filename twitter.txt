@@ -27,3 +27,8 @@ twitter.com##*[aria-label="New Tweets are available. Push the period key to go t
 !twitter.com##*[data-testid="cellInnerDiv"]:has-text('Sourced from across Twitter'):xpath(following-sibling::div)
 ! Send me an email if you fixed this on. My username at gmail.com. My username is the same as the one in GitHub.
 
+! Hide Twitter 'Verified' left side menu item
+twitter.com##nav [role="link"][aria-label="Verified"]
+
+! Hide Twitter 'Communities' left side menu item
+! twitter.com##nav [role="link"][aria-label="Communities (New items)"]
