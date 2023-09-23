@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/mig4ng/ublock-origin-filters/main/0-include-al
 
 ### Google account popup
 
-Disable annoying Google popup that plages many websites.
+Disable annoying Google popup that plagues many websites.
 
 ### YouTube
 
