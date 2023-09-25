@@ -1,0 +1,5 @@
+!! Reddit
+! Advertise button top bar
+www.reddit.com##._24UNt1hkbrZxLzs5vkvuDh
+! "Get Premium"
+www.reddit.com##div._2vEf-C2keJaBMY9qk_BxVn:nth-of-type(1)
