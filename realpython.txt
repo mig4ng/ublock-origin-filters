@@ -1,0 +1,16 @@
+!! RealPython 
+realpython.com##.p-0.sidebar-module-inset.sidebar-module
+realpython.com##.bg-secondary.mb-4.mt-4.card
+realpython.com##.mx-n2.shadow-sm.shadow.my-4.py-4.rounded.bg-light
+realpython.com##.footer
+realpython.com##div.mb-4.mt-4.card:nth-of-type(7)
+realpython.com###reader-comments
+realpython.com##div.mb-2.card.p-3.rounded.border:nth-of-type(6)
+realpython.com##.article-body > .my-3.text-center
+realpython.com##.with-headerlinks.article.col-lg-8.col-md-11 > .mb-0
+realpython.com##div.mb-2.card.p-3.rounded.border:nth-of-type(3)
+realpython.com##.alert-warning.alert
+realpython.com##.bg-secondary.mb-3.card
+realpython.com##.border.sidebar-module-inset.sidebar-module
+realpython.com##div.py-0.my-3.text-center.sidebar-module-inset.sidebar-module
+realpython.com##.mt-3.card
