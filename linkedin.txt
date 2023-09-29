@@ -6,6 +6,7 @@ www.linkedin.com##.feed-sort-toggle-dsa__wrapper:matches-path(/feed)
 www.linkedin.com##.scaffold-layout__aside[aria-label="Add to your feed"]
 
 ! Hide LinkedIn premium sponsor ads
+www.linkedin.com##.premium-upsell-link
 www.linkedin.com##.premium-upsell-link--extra-long
 
 ! Hide LinkedIn messages overlay
