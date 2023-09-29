@@ -32,3 +32,6 @@ twitter.com##nav [role="link"][aria-label="Verified"]
 
 ! Hide Twitter 'Communities' left side menu item
 ! twitter.com##nav [role="link"][aria-label="Communities (New items)"]
+
+! Hide Twitter 'Listen live in Spaces'
+twitter.com##span:has-text(Listen live in Spaces):upward(4)
