@@ -1,0 +1,114 @@
+! Remove everything but content from Wikipedia pages
+
+en.wikipedia.org##.mw-editsection, .sistersitebox, .ambox, .toc, .hatnote, .mw-ui-button, .metadata
+
+! Header
+en.wikipedia.org##div.vector-header-container
+en.wikipedia.org##.biota.infobox .plainlinks
+en.wikipedia.org##.vector-page-titlebar
+en.wikipedia.org##.vector-page-toolbar
+en.wikipedia.org##.vector-body-before-content
+en.wikipedia.org###contentSub
+en.wikipedia.org##.vector-sitenotice-container
+! Padding after article end
+en.wikipedia.org##div.vector-column-start
+
+! "Photograph your local culture" notice
+mediawiki.org,wikibooks.org,wikidata.org,wikifunctions.org,wikimedia.org,wikinews.org,wikipedia.org,wikiquote.org,wikisource.org,wikiversity.org,wikivoyage.org,wiktionary.org###siteNotice
+! Padding before article start
+en.wikipedia.org##p:has(span.geo-inline-hidden)
+
+! Footer
+en.wikipedia.org##.mw-footer-container
+! correct color when scrolling past end of page
+en.wikipedia.org##html:style(background-color: white !important;)
+en.wikipedia.org##body:style(background-color: white !important;)
+
+
+en.wikipedia.org##.reference
+
+! grey boxes around inline images
+en.wikipedia.org##figure[typeof~="mw:File/Thumb"]:style(border: none !important; background-color: #ffffff !important;)
+en.wikipedia.org##figure[typeof~="mw:File/Thumb"] > a > img:style(border: none !important; background-color: #ffffff !important;)
+en.wikipedia.org##figure[typeof~="mw:File/Thumb"] > figcaption:style(border: none !important; background-color: #ffffff !important; padding-left: 3px !important; padding-right: 3px !important;)
+! Image icon next to images...
+en.wikipedia.org##figure[typeof~='mw:File/Thumb'] > .mw-file-description::after,figure[typeof~='mw:File/Thumb'] > .mw-file-magnify::after, .mw-content-ltr figure[typeof~='mw:File/Thumb'] > .mw-file-description::after,.mw-content-ltr figure[typeof~='mw:File/Thumb'] > .mw-file-magnify::after, .magnify a:style(background-image: none !important)
+
+en.wikipedia.org##.mw-references-wrap, .reflist, .refbegin
+! Hide everything after the first unncessary section
+en.wikipedia.org##h2:has(#Bibliography), h2:has(#Bibliography) ~*, h3:has(#Bibliography), h3:has(#Bibliography)
+en.wikipedia.org##h2:has(#See_also), h2:has(#See_also) ~*, h3:has(#See_also), h3:has(#See_also) ~*
+en.wikipedia.org##h2:has(#Notes), h2:has(#Notes) ~*, h3:has(#Notes), h3:has(#Notes) ~*
+en.wikipedia.org##h2:has(#References), h2:has(#References) ~*, h3:has(#References), h3:has(#References) ~*
+en.wikipedia.org##h2:has(#Footnotes), h2:has(#Footnotes) ~*, h3:has(#Footnotes), h3:has(#Footnotes) ~*
+en.wikipedia.org##h2:has(#Sources), h2:has(#Sources) ~*, h3:has(#Sources), h3:has(#Sources) ~*
+en.wikipedia.org##h2:has(#Further_reading), h2:has(#Further_reading) ~*, h3:has(#Further_reading), h3:has(#Further_reading) ~*
+en.wikipedia.org##h2:has(#External_links), h2:has(#External_links) ~*, h3:has(#External_links), h2:has(#External_links) ~*
+
+en.wikipedia.org###mw-content-text:style(margin-top: 0px !important;)
+en.wikipedia.org###xtools
+en.wikipedia.org##div.navbox
+en.wikipedia.org##.sidebar-navbar
+en.wikipedia.org##.catlinks
+! this doesn't work well because it doesn't remove the leading space or trailing period
+!en.wikipedia.org##[href^="/wiki/Wikipedia:FAQ/Categorization#Why_might_a_category_list_not_be_up_to_date"]
+
+! External link icon
+en.wikipedia.org##.mw-parser-output a.external:style(background-image: none !important; padding-right: 0em !important;)
+!||en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/link-external-small-ltr-progressive.svg
+! Info link next to pronunciation audio
+en.wikipedia.org##.ext-phonos-attribution
+!||upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Interactive_icon.svg/*px-Interactive_icon.svg.png$image
+
+en.wikipedia.org##.noprint.p-current-events-news-browser.hlist
+! https://en.wikipedia.org/wiki/Portal:Current_events
+en.wikipedia.org##.editlink
+en.wikipedia.org##[href="/wiki/Portal:Current_events/Edit_instructions"]
+en.wikipedia.org##[href="/wiki/Wikipedia:In_the_news/Candidates"]
+en.wikipedia.org##.smallcaps > .center > b
+en.wikipedia.org###sister-projects-list
+
+! [V T E]
+en.wikipedia.org##div.navbar.plainlinks.hlist.navbar-mini
+
+! [example needed]
+en.wikipedia.org##.Inline-Template.noprint
+
+! Gear box that lets you disable page previews on mouse-over
+en.wikipedia.org##.mwe-popups footer
+en.wikipedia.org##.mwe-popups .mwe-popups-extract:style(margin-bottom: 16px !important)
+! It's 215 by 176 and ideally removing the gear would let us set it to 215 by 215 but it causes gaps after the preview image, so one less line (20) + 1 extra pixel since 176 seems to have one
+en.wikipedia.org##.mwe-popups.mwe-popups-is-tall .mwe-popups-extract:style(height: 196px !important;)
+
+! Copies of article title
+en.wikipedia.org##.infobox-above
+en.wikipedia.org##.summary.infobox-title
+
+! Make red links normal text color
+en.wikipedia.org##a.new:style(color: rgb(32, 33, 34) !important;)
+
+! Media Viewer after clicking an image
+! Permission details (explains what "CC0", etc. is)
+en.wikipedia.org##.mw-mmv-permission-box.mw-mmv-info-box
+! About Media Viewer link
+en.wikipedia.org##.mw-mmv-about-links
+! Unused buttons right of image
+en.wikipedia.org##.mw-mmv-fullscreen, .mw-mmv-options-button, .mw-mmv-download-button, .mw-mmv-reuse-button
+
+! Imperial units
+! This requires the user to "trust" this list
+!en.wikipedia.org##+js(replace-node-text, #text, /m \([0-9\,\.]+( to [0-9\,\.]+)?[ \xA0]ft\)/g, "m")
+!en.wikipedia.org##+js(replace-node-text, #text, /(meters|metres) \([0-9\,\.]+( to [0-9\,\.]+)?[ \xA0]ft\)/g, "meters")
+!en.wikipedia.org##+js(replace-node-text, #text, /(meter|metre) \([0-9\,\.]+( to [0-9\,\.]+)?[ \xA0]ft\)/g, "meter")
+!en.wikipedia.org##+js(replace-node-text, #text, /km \([0-9\,\.]+( to [0-9\,\.]+)?[ \xA0]mi\)/g, "km")
+!en.wikipedia.org##+js(replace-node-text, #text, /(kilometers|kilometres) \([0-9\,\.]+( to [0-9\,\.]+)?[ \xA0]mi\)/g, "kilometers")
+!en.wikipedia.org##+js(replace-node-text, #text, /(kilometer|kilometre) \([0-9\,\.]+( to [0-9\,\.]+)?[ \xA0]mi\)/g, "kilometer")
+!
+!en.wikipedia.org##+js(replace-node-text, #text, /g \([0-9\,\.]+[ \xA0](oz|ounces)\)/g, "g ")
+!en.wikipedia.org##+js(replace-node-text, #text, /grams \([0-9\,\.]+[ \xA0](oz|ounces)\)/g, "grams")
+!en.wikipedia.org##+js(replace-node-text, #text, /gram \([0-9\,\.]+[ \xA0](oz|ounce)\)/g, "gram")
+!en.wikipedia.org##+js(replace-node-text, #text, /kg \([0-9\,\.]+( to [0-9\,\.]+)?[ \xA0](lbs?|pounds)\)/g, "kg")
+!en.wikipedia.org##+js(replace-node-text, #text, /kilograms \([0-9\,\.]+( to [0-9\,\.]+)?[ \xA0](lbs?|pounds)\)/g, "kilograms")
+!en.wikipedia.org##+js(replace-node-text, #text, /kilogram \([0-9\,\.]+( to [0-9\,\.]+)?[ \xA0](lbs?|pounds)\)/g, "kilogram")
+!
+!en.wikipedia.org##+js(replace-node-text, #text, /°C \([0-9\,\.]+( to [0-9\,\.]+)?[ \xA0]°F\)/g, "°C")
