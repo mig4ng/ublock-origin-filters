@@ -1,6 +1,8 @@
 ! Disable distractions on Stack Overflow and all other Stack Exchange sites.
 
 ! Top bar
+! Small orange top ribbon
+stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-topbar:style(border-top:0!important)
 ! About/Products/For Teams buttons (left of search bar)
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-topbar > .s-topbar--container > .s-navigation
 ! Your points
@@ -10,6 +12,8 @@ stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net
 ! Help icon
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com##.s-topbar--content .js-help-button
 
+! Join Stack Overflow
+stackoverflow.com###signup-dialog-container
 ! Reminder to upvote the question
 stackoverflow.com,stackexchange.com,askubuntu.com,stackapps.com,mathoverflow.net,superuser.com,serverfault.com###overlay-header
 ! Giant site logo before the content on some Stack Exchange sites
